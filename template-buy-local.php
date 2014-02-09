@@ -31,7 +31,7 @@
 var lead="<?php echo ($_GET["lead"]); ?>";
 </script>
 <script src="/wp-content/themes/enfold/js/jquery.xdomainrequest.min.js"></script>
-<script src="/wp-content/themes/enfold/js/buy.js"></script>
+<script src="/wp-content/themes/enfold/js/buy-local.js"></script>
 
 
 

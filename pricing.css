@@ -1,0 +1,352 @@
+/*STAGE 1 --- CHOSE PLAN -----------------------------------------------------*/
+ /* Pricing col one fourth size  */
+.pricing {
+  position:static;
+  padding-top:35px;
+  margin-bottom:-35px;
+  background:url(/wp-content/uploads/2013/10/wide-shadow-faded.png) no-repeat bottom center;
+  padding-bottom:15px;
+}
+.pricing .first {
+  margin-left:11px !important;
+}
+.pricing .last {
+  margin-right:11px !important;
+}
+
+ul.pricing-col {
+  width:232px;
+  position:relative;
+  z-index:22;
+  float:left;
+  margin-right:0px;
+  margin-left:-1px;
+  padding:0px;
+  border:1px solid #d1d1d1;
+}
+ul.pricing-col li {
+  background:none;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-left:0px;
+  padding-right:10px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-bottom:1px solid #d1d1d1;
+}
+ul.pricing-col li .yes {
+  display:block;
+  background:url(/wp-content/uploads/2013/10/icon-check.png) no-repeat;
+  background-position:20px 0px;
+  padding-left:50px;
+}
+ul.pricing-col li .no {
+  display:block;
+  background:url(/wp-content/uploads/2013/10/icon-no.png) no-repeat;
+  background-position:20px 0px;
+  padding-left:50px;
+}
+ul.pricing-col li.button {
+  background:#ffffff;
+  text-align:center;
+  padding-left:30px;
+  padding-right:30px;
+  border:none;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+ul.pricing-col li.button .btn-small-action, ul.pricing-col li.button .btn-big-action {
+  float:none;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  margin-bottom:0px;
+  overflow:hidden;
+}
+ul.pricing-col li.tops {
+  font-size:17px;
+  text-align:center;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+ul.pricing-col li.tops h2 {
+  font-weight:bold;
+  margin-bottom:0px;
+}
+ul.pricing-col .price {
+  font-size:18px;
+  font-weight:bold;
+}
+
+
+
+/* Pricing col one fourth size Highlighted */
+ul.pricing-col li.tops {
+  background:#db7b00;
+  color:#ffffff;
+  border-bottom:1px solid #d1d1d1;
+}
+ul.pricing-col .price {
+  color:#ffffff;
+}
+ul.pricing-col-highlight {
+  width:232px;
+  position:relative;
+  z-index:22;
+  top:-35px;
+  float:left;
+  margin-right:0px;
+  margin-left:-1px;
+  padding:0px;
+  margin-bottom:0px;
+  border:1px solid #d1d1d1;
+}
+ul.pricing-col-highlight li {
+  background:none;
+  margin-left:0px;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding-left:0px;
+  padding-right:10px;
+  padding-top:7px;
+  padding-bottom:7px;
+  font-size:17px;
+  border-bottom:1px solid #d1d1d1;
+}
+ul.pricing-col-highlight li .yes {
+  display:block;
+  background:url(/wp-content/uploads/2013/10/icon-check.png) no-repeat;
+  background-position:20px 0px;
+  padding-left:50px;
+}
+ul.pricing-col-highlight li .no {
+  display:block;
+  background:url(/wp-content/uploads/2013/10/icon-no.png) no-repeat;
+  background-position:20px 0px;
+  padding-left:50px;
+}
+ul.pricing-col-highlight li.button {
+  background:#ffffff;
+  text-align:center;
+  padding-left:30px;
+  padding-right:30px;
+  border:none;
+  padding-top:15px;
+  padding-bottom:15px;
+}
+ul.pricing-col-highlight li.button .btn-small-action, ul.pricing-col-highlight li.button .btn-big-action {
+  float:none;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:0px;
+  margin-bottom:0px;
+  overflow:hidden;
+}
+ul.pricing-col-highlight li.tops {
+  font-size:19px;
+  text-align:center;
+  padding-top:18px;
+  padding-bottom:19px;
+  background:#db7b00;
+  color:#ffffff;
+  border-bottom:1px solid #d1d1d1;
+}
+ul.pricing-col-highlight li.tops h2 {
+  font-size:33px;
+  margin-bottom:0px;
+text-transform:capitalize;
+  color:#ffffff;
+  font-weight:900;
+}
+ul.pricing-col-highlight .price {
+  font-size:18px;
+  font-weight:bold;
+}
+
+.pricing-alternate ul.pricing-col {
+  width:311px !important;
+}
+.pricing-alternate ul.pricing-col-highlight  {
+  width:311px !important;
+}
+
+.round-top-left {
+-webkit-border-top-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+border-top-left-radius: 10px;
+}
+.round-top-right {
+-webkit-border-top-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+border-top-right-radius: 10px;
+}
+.round-btm-left {
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-bottom-left-radius: 10px;
+}
+.round-btm-right {
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-bottomright: 10px;
+border-bottom-right-radius: 10px;
+}
+.round-top-btm-left {
+-webkit-border-top-left-radius: 10px;
+-webkit-border-bottom-left-radius: 10px;
+-moz-border-radius-topleft: 10px;
+-moz-border-radius-bottomleft: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+}
+.round-top-btm-right {
+-webkit-border-top-right-radius: 10px;
+-webkit-border-bottom-right-radius: 10px;
+-moz-border-radius-topright: 10px;
+-moz-border-radius-bottomright: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.pricing ul.first {
+-moz-border-radius:10px 0px 0px 10px; -webkit-border-radius:10px 0px 0px 10px; border-radius:10px 0px 0px 10px;
+}
+.pricing ul.first li.button {   -moz-border-radius:0px 0px 0px 10px; -webkit-border-radius:0px 0px 0px 10px; border-radius:0px 0px 0px 10px; }
+.pricing ul.first .tops {  -moz-border-radius:10px 0px 0px 0px; -webkit-border-radius:10px 0px 0px 0px; border-radius:10px 0px 0px 0px; }
+
+.pricing ul.last {
+-moz-border-radius:0px 10px 10px 0px; -webkit-border-radius:0px 10px 10px 0px; border-radius:0px 10px 10px 0px;
+}
+.pricing ul.last li.button {   -moz-border-radius:0 0 10px 0px; -webkit-border-radius:0 0 10px 0px; border-radius:0 0 10px 0px; }
+.pricing ul.last .tops {  -moz-border-radius:0px 10px 0 0; -webkit-border-radius:0px 10px 0 0; border-radius:0px 10px 0 0; }
+
+
+.outer-rounded-box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+ }
+ .outer-rounded-box-bold {
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+ }
+.inner-rounded-box-filled-grey {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+ }
+ .inner-rounded-box-filled-white {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+ }
+ .inner-rounded-box-gradient-up {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+.inner-rounded-box-gradient-down {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.simple-rounded-box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+
+/* Pricing col one fourth size  */
+
+.pricing .first li {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-right.png) right repeat-y;
+}
+.pricing .first li.button {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-right.png) right repeat-y !important;
+}
+
+.pricing .shadow-right li {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-right1.png) right repeat-y;
+}
+.pricing .shadow-right li.button {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-right1.png) right repeat-y !important;
+}
+
+.pricing .last li {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-left.png) left repeat-y;
+}
+.pricing .last li.button {
+  background: #ffffff url/wp-content/uploads/2013/10/pricing-shadow-left.png) left repeat-y !important;
+}
+
+.pricing .shadow-left li {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-left1.png) left repeat-y;
+}
+.pricing .shadow-left li.button {
+  background: #ffffff url(/wp-content/uploads/2013/10/pricing-shadow-left1.png) left repeat-y !important;
+}
+
+.pricing .first li.tops {
+  background:#db7b00  url(/wp-content/uploads/2013/10/pricing-shadow-right.png) right repeat-y !important;
+}
+.pricing .shadow-right li.tops {
+  background:#db7b00  url(/wp-content/uploads/2013/10/pricing-shadow-right1.png) right repeat-y !important;
+}
+.pricing .last li.tops {
+  background:#db7b00  url(/wp-content/uploads/2013/10/pricing-shadow-left.png) left repeat-y !important;
+}
+.pricing .shadow-left li.tops {
+  background:#db7b00  url(/wp-content/uploads/2013/10/pricing-shadow-left1.png) left repeat-y !important;
+}
+ul.pricing-col li.tops {
+  background:#db7b00;
+  color:#ffffff;
+  border-bottom:1px solid #d1d1d1;
+}
+ul.pricing-col .price {
+  color:#ffffff;
+}
+ul.pricing-col-highlight li.tops {
+  background:#db7b00;
+  color:#ffffff;
+  border-bottom:1px solid #d1d1d1;
+text-shadow: 1px 1px #b06300 !important;
+font-size:20px;
+}
+ul.pricing-col-highlight .price {
+  color:#ffffff;
+}
+.btn-big-action {
+float: none;
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+margin-bottom: 0px;
+overflow: hidden;
+background: transparent url(/wp-content/uploads/2013/10/btn-big-orange-right.jpg) no-repeat scroll top right;
+color: #ffffff;
+text-shadow: 1px 1px #c66f00;
+}
+
+ul { list-style-type: none; }
+li { list-style-type: none; }
+h3 {
+line-height: 117%;
+font-size: 23px;}
+.add-extra-padding-left{padding-left: 45px;}
+.main-title{display:none;}
+li.tops.round-top-left.round-top-right{
+font-size: 20px;
+font-weight: bold;
+}
+a.btn-big-action span {
+display: block;
+line-height: 43px;
+padding: 0px 0px 5px 15px;
+text-align: center;
+a.btn-big-action span {
+background: transparent url(../images/buttons/btn-big-orange-left.jpg) no-repeat;
+}

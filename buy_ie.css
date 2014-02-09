@@ -1,0 +1,10 @@
+.buttonWrapper{
+	bottom: 100px;
+}
+.avia-size-large.avia-button{
+	background-color: #ee8700;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 0px;
+}
+

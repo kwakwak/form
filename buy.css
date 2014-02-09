@@ -1,0 +1,292 @@
+li {
+	list-style: none;
+}
+ul{
+	margin-right: 15px;
+	margin-left: 0px;
+}
+.outer-rounded-box-bold{
+	width: 110%;	
+}
+
+
+.right{
+	float:right;
+	width: 45%;
+}
+
+.left{
+	float:left;
+	width: 50%;
+
+}
+
+.ui-datepicker-calendar {
+    display: none;
+    }
+
+button.ui-datepicker-current { 
+	display: none; 
+}
+
+#top label span, #top legend span{
+	color: #ee8700;
+	font-weight:bold;
+}
+
+
+.my-custom-theme {
+	border-radius: 5px; 
+	border: 2px solid #000;
+	background: #4c4c4c;
+	color: #fff;
+	width: 200px;
+}
+
+.my-custom-theme .tooltipster-content {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 8px 10px;
+}
+
+
+			
+.buttonWrapper{
+	position: absolute;
+	bottom: 20px;
+}
+@-moz-document url-prefix() 
+{
+	.buttonWrapper
+	{
+		bottom: 80px;
+	}
+}
+p.price
+{
+	font-size: 13px;
+}  
+div.right_msg
+{
+	float: right;
+	text-align: center;	
+	position: relative;
+	top:50px;
+	display: none;
+}
+div.right_msg h1
+{
+	font-style: italic;
+	color: darkgrey;
+	font-size: 30px;
+}
+
+div.right_msg h1 span
+{
+	text-decoration: underline;
+}
+   
+            .package
+            {
+                margin-left: auto;
+                margin-right: auto;
+                height:150px;
+                border:solid 5px #D9D9D9;
+                border-radius: 10px;
+                font-size:9pt;
+                font-family:'Meiryo UI';
+                text-align:justify;
+                width:800px;
+
+            }
+            
+            .package.selected
+            {
+                background:#FDEADA;
+                border-color:#E46C0A;
+            }
+            
+            table.package
+            {
+                box-shadow: grey 3px 3px 6px; 
+                border-color: white;
+            	background: white;
+            }
+
+            .package td
+            {
+                padding: 0 10px;
+            }
+            
+            .package .plus div
+            {
+                background:url(/wp-content/themes/enfold/images/plus.png) no-repeat 50%;
+                width:36px;
+                height:36px;
+            }
+            
+            .package .plus.empty div
+            {
+                background:none;
+            }
+            
+            .package .device div
+            {
+                background:url(/wp-content/themes/enfold/images/device.png) no-repeat 50%;
+                width:110px;
+                height:94px;
+                box-shadow: grey 3px 3px 6px; 
+            }
+            
+            .package .app div
+            {
+                 background:url(/wp-content/themes/enfold/images/app.png) no-repeat 50%;
+                 background-size:100%;
+                 width:60px;
+                 height:60px;
+                 box-shadow: grey 3px 3px 6px; 
+            }
+            
+            .package .equal div
+            {
+                background:url(/wp-content/themes/enfold/images/equal.png) no-repeat 50%;
+                width:36px;
+                height:24px;
+            }
+            
+            .package .service div
+            {
+                background:url(/wp-content/themes/enfold/images/service.png) no-repeat 50%;
+                width:118px;
+                height:94px;
+                box-shadow: grey 3px 3px 6px;
+                position:relative; 
+            }
+            
+            .package .service.empty div
+            {
+                background:none;   
+                box-shadow:none;            
+            }
+            
+            .package .service .elipse
+            {
+                position:absolute;
+                background:url(/wp-content/themes/enfold/images/greyElipse.png) no-repeat 50%;
+                width:70px;
+                height:75px;
+                top:-37px;
+                left:70%;
+                box-shadow:none;  
+                color:White;
+                text-align:center;
+                padding-top:26px;
+            }
+            
+            .package.selected .service .elipse
+            {
+                background:url(/wp-content/themes/enfold/images/orangeElipse.png) no-repeat 50%;
+            }
+            
+            .package .price
+            {
+                color:#C0504D;
+                font-size:20pt;
+                font-weight:bold;
+                text-align:center;
+                height:150px;
+            }
+            
+            .package.selected .price
+            {
+                position:relative;
+            }
+            
+            .package .price .button
+            {
+                background:url(/wp-content/themes/enfold/images/button.png) no-repeat 50%;
+                width:178px;
+                height:50px;
+                color:White;
+                font-size: 15pt;
+                padding-top: 11px;
+            }
+            
+            .package .price .littlePlus
+            {
+                color:#A6A6A6;
+                font-size:16pt;    
+            }
+            
+            .package .bottomRow
+            {
+                text-align:center;
+                color:#7F7F7F;
+                font-weight:bold;
+            }
+            
+            .package .cornerStar
+            {
+                position:absolute;
+                background:url(/wp-content/themes/enfold/images/cornerStar.png) no-repeat 50%;
+                width:75px;
+                height:74px;
+                top: -24px;
+                left: 175px;
+            }
+
+
+
+            
+            .main_color table
+            {
+            	border-color: #D9D9D9;
+            	border-collapse: separate;
+
+      
+            }
+
+            .main_color tr,
+            .main_color tr:nth-child(odd),
+            .main_color tr:nth-child(even),
+            .main_color td,
+            tbody
+            {
+            	border-color: white;
+            	background: inherit;
+            }
+
+			html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
+			{
+				vertical-align: middle;
+			}
+
+			table.selected td
+			{
+				border-color: #FDEADA;
+			}
+
+        #top legend 
+        {
+            position: absolute;
+            top: -13px;
+            background-color: white;
+            border-color: #e1e1e1;
+            border: 4px solid #e1e1e1;
+            border-radius: 9px;
+            padding: 0 11px;
+            font-weight: bold;
+        }
+
+        div.done 
+        {
+            font-size: 25px;
+            font-weight: bold;
+            background-image: url('/wp-content/themes/enfold/images/yes.png');
+            background-repeat: no-repeat;
+            height: 100px;
+            position: relative;
+            padding-left: 92px;
+            padding-top: 58px;
+        }
